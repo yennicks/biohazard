@@ -1,0 +1,4 @@
+template: test-template
+content:
+  title: this is the title
+  p: this is the paragraph
