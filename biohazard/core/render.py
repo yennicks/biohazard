@@ -7,7 +7,6 @@ def render(data: dict) -> str:
 
     env = Environment(
         loader=PackageLoader('biohazard', 'templates'),
-        autoescape=select_autoescape(['html'])
     )
 
     template = env.get_template(template_name + '.html')
