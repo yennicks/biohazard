@@ -7,6 +7,9 @@ There are however, some hazards in putting all your trust in commercial sites th
 
 Biohazard wants to serve as an alternative to the *hazardous* trend of trusting your *biography* to commercial companies.
 
+## Requirements
+Python 3.6 or newer is required.
+
 ## Roadmap
 This project is currently in a proof of concept phase.
 A roadmap will be presented when it reaches an alpha phase and the project will continue.
