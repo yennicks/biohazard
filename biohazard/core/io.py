@@ -15,7 +15,7 @@ def load_yaml(file: pathlib.Path) -> dict:
         data_loaded = yaml.load(stream)
 
     if type(data_loaded) is not dict:
-        raise ContentDataException(f'Content of {file} was not parsed to a dictionary.')
+        raise ContentDataException(f'The {file} is not parseable as a dictionary.')
 
     return data_loaded
 
