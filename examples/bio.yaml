@@ -1,0 +1,11 @@
+template: bio
+content:
+  title: biohazard.at ☣️
+  quote: biohazard is a non-hazardous static site bio generator.
+  links:
+    - title: '<i class="fas fa-globe"></i>'
+      subtitle: Website
+      url: https://biohazard.at
+    - title: '<i class="fab fa-github"></i>'
+      subtitle: GitHub
+      url: https://github.com/yennicks/biohazard
