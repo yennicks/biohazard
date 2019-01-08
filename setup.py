@@ -15,13 +15,13 @@ def read(filename):
 
 setup(
     name="biohazard",
-    version="0.0",
-    url="",
+    version="0.1a1",
+    url="https://github.com/yennicks/biohazard",
     license='ISC',
 
     author="Yennick Schepers",
 
-    description="Biohazard",
+    description="Biohazard is a yet another static site generator for simple landing pages.",
     long_description=read("README.md"),
 
     packages=find_packages(exclude=('tests',)),
@@ -34,10 +34,9 @@ setup(
 
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
-        'License :: OSI Approved :: ISC License',
+        'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
     ],
